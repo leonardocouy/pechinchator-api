@@ -14,6 +14,12 @@ const settings = {
     port: process.env.PORT || 8000,
     isProduction,
   },
+  production: {
+    jwtSecret: process.env.JWT_SECRET,
+    mongoUri: process.env.MONGODB_URI,
+    port: process.env.PORT || 8000,
+    isProduction,
+  },
   env,
 };
 

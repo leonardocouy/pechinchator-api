@@ -2,6 +2,7 @@
   "name": "pechinchator-api",
   "version": "0.0.1",
   "private": true,
+  "main": "server.js",
   "scripts": {
     "lint": "eslint --fix \"**/*.js\"",
     "start": "node server.js",
